@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'kingthings_petrockregular';
+    src: url('/assets/fonts/kingthings_petrock-webfont.woff2') format('woff2'),
+         url('/assets/fonts/kingthings_petrock-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*General styles*/
+
+html{
+    box-sizing: border-box;
+    background-color: rgb(0,0,0);
+
+}
+
+body{
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+*{
+    box-sizing: inherit;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "kingthings_petrockregular";
+    color: rgb(255,255,255);
+    letter-spacing: 2px;    
+
+}
+
+/*Main styles*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Form styles*/
+
+.form{
+    width: 30em;
+    height: 30em;
+    margin-top: 1rem;
+    position: absolute;
+    top: 8rem;
+    background-image: linear-gradient(0deg, rgb(188, 111, 241), rgb(137, 44, 220), rgb(82, 5, 123));
+    border-radius: 5px;
+
+}
+
+
+/*Login styles*/
+
+.login{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 5rem);
+}
+
+.emailP,
+.passwordP,
+.iniciarSession{
+    grid-column: 1 / -1;
+    justify-self: center;    
+
+}
+
+/**/
+
+.emailP,
+.passwordP{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+    width: 25rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+
+}
+
+label{
+    visibility: hidden;
+
+}
+
+/*Input style*/
+
+.emailP{
+    background-image: url(/assets/icons/usuario.png);
+    background-repeat: no-repeat;
+    background-size: 1.3em 1.3em;
+    background-position: 2rem 1.2rem;
+
+}
+
+.passwordP{
+    background-image: url(/assets/icons/llave.png);
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    background-position: 2rem 1.2rem;
+
+}
+
+.emailP input,
+.passwordP input{
+    border: none;
+    border-bottom: 3px solid rgb(0,0,0);
+
+    outline: none;
+    font-size: 1rem;
+
+}
+
+.emailP input::placeholder,
+.passwordP input::placeholder{
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+
+.emailMessage{
+    display: none;
+}
+
+/*Button style*/
+
+.iniciarSession{
+    grid-column: 4 / 8;
+}
+
+.iniciarSession button{
+    width: 15rem;
+    height: 2rem;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    border: 2px solid rgb(0,0,0);
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.iniciarSession button:hover,
+.iniciarSession button:focus{
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+
+}
+
+/*Gradients and pseudoclasses*/
+
+.emailP input,
+.passwordP input{
+    background-image: linear-gradient(0deg, rgba(240, 165, 0, 0.7) 5%, rgb(255,255,255) 95%);
+
+}
+
+.emailP input:focus,
+.passwordP input:focus{
+    background-image: initial;
+    
+}
+
+/*Video style*/
+
+.video{
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

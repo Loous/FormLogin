@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lous">
+    <meta name="description" content="Inicio de sessión">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/mediaqueries.css">
+    <link rel="stylesheet" href="/styles/dinamicstyles.css">
+</head>
+<body>
+   
+
+    <main>
+
+        <section class="form">
+            <h1 role="heading" aria-level="1">Inicio de sessión</h1>
+
+            
+            
+            <form class="login" role="form">
+                
+
+                <div class="emailP">
+
+                    <label for="email">Ingresa tu correo <abbr title="required">*</abbr>:</label>
+                    
+                    <input type="email" id="email" name="userEmail" 
+                        required maxlength="150" placeholder="Email" aria-required="true">
+
+
+                </div>
+                <div class="passwordP">
+
+                    <label for="password">Contraseña <abbr title="requires">*</abbr>:</label>
+                    <input type="password" id="password" name="userPasswd" required 
+                        maxlength="100" placeholder="Password" aria-required="true">
+
+
+
+
+                </div>
+                <div class="iniciarSession">
+
+                    <button type="submit">Iniciar sessión</button>
+
+                </div>
+
+                <span class="emailMsgI"></span>
+
+
+
+
+            </form>
+
+            
+        </section>
+
+        <video src="/assets/videos/Lake - 91562.mp4" autoplay loop aria-hidden="true" class="video"></video>
+
+
+
+        
+
+
+
+
+    </main>
+
+
+    <script src="/main.js" type="module"></script>
+</body>
+</html>
